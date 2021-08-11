@@ -5,7 +5,10 @@ pipeline{
         stage('Build'){
             steps{
                 echo "------------>Compile & Unit Tests<------------"
-                sh 'xcodebuild -scheme firstAppSwift clean build CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED="NO"'
+                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) { 
+                    sh 'xcodebuild -scheme firstAppSwift clean build CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED="NO"'
+                }
+                
             }
             
         }
