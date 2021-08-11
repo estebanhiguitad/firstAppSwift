@@ -16,7 +16,7 @@ pipeline{
         stage('Swiftlint analysis'){
             steps{
                 echo "------------>Swiftlint analysis<------------"
-                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/opt/swiftlint/bin']) {
+                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                     sh "swiftlint lint > sonar-reports/swiftlint.txt"
                 }
             }
