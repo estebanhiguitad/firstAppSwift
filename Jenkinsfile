@@ -3,7 +3,7 @@ pipeline{
     
     stage('Build'){
         echo "------------>Compile & Unit Tests<------------"
-        sh 'xcodebuild -scheme Integracion\ Continua clean build CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED="NO"'
+        sh 'xcodebuild -scheme firstAppSwift clean build CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED="NO"'
     }
     
     stage('Static Code Analysis'){
