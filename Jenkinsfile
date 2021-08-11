@@ -12,10 +12,19 @@ pipeline{
             }
             
         }
+
+        stage('Swiftlint analysis'){
+            steps{
+                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
+                    sh "swiftlint lint > sonar-reports/swiftlint.txt"
+                }
+            }
+        }
         
         stage('Static Code Analysis'){
             steps{
                 withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
+
                     withSonarQubeEnv('Sonar') {
                         sh "sonar-scanner -Dproject.settings=sonar-project.properties"
                     }
