@@ -45,6 +45,8 @@
 		11425A8726C4273F002FF272 /* Integracion ContinuaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Integracion ContinuaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11425A8B26C4273F002FF272 /* Integracion_ContinuaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integracion_ContinuaUITests.swift; sourceTree = "<group>"; };
 		11425A8D26C4273F002FF272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11425A9926C45862002FF272 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		11425A9A26C45E27002FF272 /* sonar-project.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,8 @@
 		11425A6226C42738002FF272 = {
 			isa = PBXGroup;
 			children = (
+				11425A9A26C45E27002FF272 /* sonar-project.properties */,
+				11425A9926C45862002FF272 /* Jenkinsfile */,
 				11425A6D26C42739002FF272 /* Integracion Continua */,
 				11425A7F26C4273F002FF272 /* Integracion ContinuaTests */,
 				11425A8A26C4273F002FF272 /* Integracion ContinuaUITests */,
