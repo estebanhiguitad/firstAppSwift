@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Button("Hello, SwiftUI!") {
+                let seq = 1...4
+                seq.map { $0 }
+            }
+        }
     }
 }
 
