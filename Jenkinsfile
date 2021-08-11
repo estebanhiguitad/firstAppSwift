@@ -12,16 +12,7 @@ pipeline{
             }
             
         }
-
-        stage('Swiftlint analysis'){
-            steps{
-                echo "------------>Swiftlint analysis<------------"
-                withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin:/opt/swiftlint']) {
-                    sh "swiftlint lint > sonar-reports/swiftlint.txt"
-                }
-            }
-        }
-        
+      
         stage('Static Code Analysis'){
             steps{
                 echo "------------>Static Code Analysis<------------"
