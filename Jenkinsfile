@@ -15,6 +15,7 @@ pipeline{
 
         stage('Swiftlint analysis'){
             steps{
+                echo "------------>Swiftlint analysis<------------"
                 withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                     sh "swiftlint lint > sonar-reports/swiftlint.txt"
                 }
@@ -23,6 +24,7 @@ pipeline{
         
         stage('Static Code Analysis'){
             steps{
+                echo "------------>Static Code Analysis<------------"
                 withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
 
                     withSonarQubeEnv('Sonar') {
