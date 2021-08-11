@@ -17,7 +17,7 @@ pipeline{
             steps{
                 echo "------------>Swiftlint analysis<------------"
                 withEnv(['SWIFT_LINT=/usr/local/opt/swiftlint/bin']) {
-                    sh "swiftlint lint > sonar-reports/swiftlint.txt"
+                    swiftlint lint > sonar-reports/swiftlint.txt
                 }
             }
         }
