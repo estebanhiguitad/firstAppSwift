@@ -13,6 +13,7 @@
 		1146503C26C462B50079AFD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1146503B26C462B50079AFD8 /* Preview Assets.xcassets */; };
 		1146504726C462B50079AFD8 /* firstAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146504626C462B50079AFD8 /* firstAppSwiftTests.swift */; };
 		1146505226C462B50079AFD8 /* firstAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146505126C462B50079AFD8 /* firstAppSwiftUITests.swift */; };
+		1154CD2526EF932D008CD212 /* CalculatorOwn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1154CD2426EF932D008CD212 /* CalculatorOwn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1146505326C462B50079AFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		114FC25B26C463A9004C1D6C /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		114FC25C26C463B1004C1D6C /* sonar-project.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
+		1154CD2426EF932D008CD212 /* CalculatorOwn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorOwn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				1146503426C462AF0079AFD8 /* firstAppSwiftApp.swift */,
+				1154CD2426EF932D008CD212 /* CalculatorOwn.swift */,
 				1146503626C462AF0079AFD8 /* ContentView.swift */,
 				1146503826C462B50079AFD8 /* Assets.xcassets */,
 				1146503D26C462B50079AFD8 /* Info.plist */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1154CD2526EF932D008CD212 /* CalculatorOwn.swift in Sources */,
 				1146503726C462AF0079AFD8 /* ContentView.swift in Sources */,
 				1146503526C462AF0079AFD8 /* firstAppSwiftApp.swift in Sources */,
 			);

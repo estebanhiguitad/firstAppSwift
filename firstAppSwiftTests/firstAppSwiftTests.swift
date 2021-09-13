@@ -19,8 +19,8 @@ class firstAppSwiftTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let result = CalculatorOwn().sum(valueOne: 2, valueTwo: 2)
+        XCTAssert(result == 4)
     }
 
     func testPerformanceExample() throws {
