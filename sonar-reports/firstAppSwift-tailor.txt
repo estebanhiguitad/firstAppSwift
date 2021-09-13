@@ -2,15 +2,15 @@ Analyzing 3 files:
 SS.
 
 ********** firstAppSwift/CalculatorOwn.swift **********
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:5: warning: [function-whitespace] Function should have at least one blank line before it
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:10: warning: [min-name-length] Function name is less than minimum character limit (3/4)
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:13: warning: [parenthesis-whitespace] Parentheses should not be preceded by whitespace
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:24: warning: [colon-whitespace] Colon at column 24 should have no spaces before it
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:26: warning: [min-name-length] Type name is less than minimum character limit (3/4)
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:40: warning: [colon-whitespace] Colon at column 40 should have no spaces before it
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:42: warning: [min-name-length] Type name is less than minimum character limit (3/4)
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:50: warning: [min-name-length] Type name is less than minimum character limit (3/4)
-/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:53: warning: [brace-style] Opening brace should have exactly one space before it
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/CalculatorOwn.swift:10:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:10: warning: [min-name-length] Function name is less than minimum character limit (3/4)
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:13: warning: [parenthesis-whitespace] Parentheses should not be preceded by whitespace
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:24: warning: [colon-whitespace] Colon at column 24 should have no spaces before it
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:26: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:40: warning: [colon-whitespace] Colon at column 40 should have no spaces before it
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:42: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:50: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/esteban.higuita/.jenkins/workspace/First-App-Swift/firstAppSwift/firstAppSwift/CalculatorOwn.swift:10:53: warning: [brace-style] Opening brace should have exactly one space before it
 
 ********** firstAppSwift/ContentView.swift **********
 firstAppSwift/ContentView.swift could not be parsed successfully, skipping...
