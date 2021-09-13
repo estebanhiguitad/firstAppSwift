@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.6842105263157895" branch-rate="0.6363636363636364" lines-covered="13" lines-valid="19" branches-covered="7" branches-valid="11" complexity="0.0" timestamp="1631547855" version="Slather 2.7.1">
+<coverage line-rate="0.6842105263157895" branch-rate="0.6363636363636364" lines-covered="13" lines-valid="19" branches-covered="7" branches-valid="11" complexity="0.0" timestamp="1631553755" version="Slather 2.7.1">
   <sources>
     <source>/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift</source>
   </sources>
