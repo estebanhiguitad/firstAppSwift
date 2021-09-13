@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.6842105263157895" branch-rate="0.6363636363636364" lines-covered="13" lines-valid="19" branches-covered="7" branches-valid="11" complexity="0.0" timestamp="1631547855" version="Slather 2.7.1">
+  <sources>
+    <source>/Users/esteban.higuita/Documents/pruebasDeConcepto/swift/firstAppSwift</source>
+  </sources>
+  <packages>
+    <package name="firstAppSwift" line-rate="0.6842105263157895" branch-rate="0.6363636363636364" complexity="0.0">
+      <classes>
+        <class name="CalculatorOwn" filename="firstAppSwift/CalculatorOwn.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="10" branch="true" hits="1" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="11" branch="false" hits="1"/>
+            <line number="12" branch="false" hits="1"/>
+          </lines>
+        </class>
+        <class name="ContentView" filename="firstAppSwift/ContentView.swift" line-rate="0.4545454545454545" branch-rate="0.4285714285714285" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="12" branch="true" hits="8" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="13" branch="true" hits="8" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="14" branch="true" hits="8" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="true" hits="0" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="17" branch="true" hits="0" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="23" branch="true" hits="0" condition-coverage="0% (0/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="0%"/>
+              </conditions>
+            </line>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="firstAppSwiftApp" filename="firstAppSwift/firstAppSwiftApp.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="12" branch="true" hits="8" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="13" branch="true" hits="8" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="true" hits="8" condition-coverage="100% (1/1)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100%"/>
+              </conditions>
+            </line>
+            <line number="16" branch="false" hits="8"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

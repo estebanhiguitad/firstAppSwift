@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='firstAppSwiftUITests.xctest' tests='4' failures='0'>
+  <testsuite name='firstAppSwiftTests.firstAppSwiftTests' tests='2' failures='0'>
+    <testcase classname='firstAppSwiftTests.firstAppSwiftTests' name='testExample' time='0.002'/>
+    <testcase classname='firstAppSwiftTests.firstAppSwiftTests' name='testPerformanceExample' time='0.426'/>
+  </testsuite>
+  <testsuite name='firstAppSwiftUITests.firstAppSwiftUITests' tests='2' failures='0'>
+    <testcase classname='firstAppSwiftUITests.firstAppSwiftUITests' name='testExample' time='1.643'/>
+    <testcase classname='firstAppSwiftUITests.firstAppSwiftUITests' name='testLaunchPerformance' time='81.835'/>
+  </testsuite>
+</testsuites>
